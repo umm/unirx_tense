@@ -29,7 +29,7 @@ tenseSubject.Will(); // Notify `will`
 tenseSubject.Did(); // Notify `did`
 ```
 
-### Notify tense withzvalue
+### Notify tense with value
 
 ```csharp
 var tenseSubject = new TenseSubject<int>();
