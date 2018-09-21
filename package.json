@@ -1,0 +1,32 @@
+{
+  "name": "@umm/unirx_tense",
+  "version": "0.0.0",
+  "description": "Handling tense for UniRx",
+  "homepage": "https://github.com/umm/unirx_tense",
+  "bugs": {
+    "url": "https://github.com/umm/unirx_tense/issues"
+  },
+  "scripts": {
+    "umm:init": "umm-init",
+    "umm:generate_assembly_definition": "umm-generate_assembly_definition",
+    "umm:module:install": "umm-module-install",
+    "umm:module:uninstall": "umm-module-uninstall",
+    "postinstall": "npm run --silent umm:module:install",
+    "postuninstall": "npm run --silent umm:module:uninstall"
+  },
+  "author": "Tetsuya Mori",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:umm/unirx_tense"
+  },
+  "files": [
+    "Assets"
+  ],
+  "dependencies": {
+    "@umm/extra_unirx": "umm/extra_unirx#^1.0.0",
+    "@umm/scripts": "umm/scripts#^1.0.0",
+    "@umm/unirx": "umm/unirx#^2.0.0"
+  },
+  "devDependencies": {}
+}
